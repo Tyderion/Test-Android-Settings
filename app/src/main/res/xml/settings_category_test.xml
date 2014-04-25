@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_test2"
+        android:dependency="pref_test"
+        android:title="Preference Test 2"
+        android:summary="Summary 2"
+        />
+    <com.swisscom.tzhnaga1.testettings.TestPreference
+        android:key="pref_test"
+        android:title="Preference Test"
+        android:summary="A Summary"/>
+</PreferenceScreen>
